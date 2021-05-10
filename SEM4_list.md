@@ -38,7 +38,7 @@ Students can design AI enabled authentication schemes for various computing doma
 8.     Access control schemes in Industry 4.0:
 Students can design access control schemes for Industry 4.0 communication.
 
-Serial No 9 Resource person: Ankit Tomar
+Serial No 9 Resource person: Ankit Tomar  
 9.     Customer Segmentation in retail sectors:
 Segment the customers based on their gender, age, interest. It is useful in customized marketing. Customer segmentation is an important practice of dividing customers based on individual groups that are similar.
 
