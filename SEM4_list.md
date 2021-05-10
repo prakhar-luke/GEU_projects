@@ -144,7 +144,7 @@ Develop and host some innovative web application using cloud services such as AW
 Extract the logs of services associated with your account. Parse them and convert into some meaningful format using python APIs. You can use CloudTrail, CloudWatch  etc. to monitor the activity logs. Write a script to extract and parse such logs.
 
 * Serial No 26-27 Resource person: Sarishma  
-"-----"
+-----
 # 26.  Comparative analysis of different forensic tools:#
 Purpose:  To compare and evaluate the performance of different tools by using quantifiable data. To find out the best tool after running test cases on 4-5 different forensic tools.
 
