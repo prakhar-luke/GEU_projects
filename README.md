@@ -1,2 +1,2 @@
-# Sentiment_analysis
+# Sentiment Analysis
 Twitter Sentiment Analysis 
