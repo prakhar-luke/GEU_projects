@@ -1,0 +1,22 @@
+% sample structure array to store the credentials
+creds = struct('ConsumerKey','5pj0y9T7JvKiEsA9P5tWNL5vb',...
+    'ConsumerSecret','v0JhuerK1I1lxTdKb9lcUTTnw83iProqNfzqw1fTj7fQfUAQ6a',...
+    'AccessToken','948758986366451712-gB0Iem8evvB5IHoaZbCbgf7AeHs6R8F',...
+    'AccessTokenSecret','fkgo0AlugkA3P4Z6yUjkDiJSFCMTKWafbx7lTwt6Qd7Xf');
+%    API_key = '5pj0y9T7JvKiEsA9P5tWNL5vb'
+%    API_Secret_Key = 'v0JhuerK1I1lxTdKb9lcUTTnw83iProqNfzqw1fTj7fQfUAQ6a'
+%    AccessToken = '948758986366451712-gB0Iem8evvB5IHoaZbCbgf7AeHs6R8F'
+%    AccessTokenSecret = 'fkgo0AlugkA3P4Z6yUjkDiJSFCMTKWafbx7lTwt6Qd7Xf'
+
+% set up a Twitty object
+addpath twitty_1.1.1; % Twitty
+addpath parse_json; % Twitty's default json parser
+addpath jsonlab-2.0; % I prefer JSONlab, however.
+load('creds.mat') % load my real credentials
+tw = twitty(creds); % instantiate a Twitty object
+tw.jsonParser = @loadjson; % specify JSONlab as json parser
+
+% search for English tweets that mention 'amazon' and 'hachette'
+amazon = tw.search('amazon','count',100,'include_entities','true','lang','en');
+hachette = tw.search('hachette','count',100,'include_entities','true','lang','en');
+both = tw.search('amazon hachette','count',100,'include_entities','true','lang','en');
