@@ -5,9 +5,9 @@
 _Project by : Prakhar Bhandari_
 _Under the guidance of : Kireet Joshi_
 
-Goal : To predict whether the patient has 10-year risk of future coronary heart disease (CHD)  
+___Goal___ : To predict whether the patient has 10-year risk of future coronary heart disease (CHD)  
 
-Data set used : [Framingham Heart study dataset](https://www.kaggle.com/amanajmera1/framingham-heart-study-dataset)
+___Data set used___ : [Framingham Heart study dataset](https://www.kaggle.com/amanajmera1/framingham-heart-study-dataset)
 
 ![Caution](https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Caution_sign_used_on_roads_pn.svg/1200px-Caution_sign_used_on_roads_pn.svg.png)
 
