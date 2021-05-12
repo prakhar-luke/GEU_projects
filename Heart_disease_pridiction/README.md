@@ -2,8 +2,9 @@
 
 ## Heart disease pridiction
 
-_Project by : Prakhar Bhandari_
-_Under the guidance of : Kireet Joshi_
+__Project by : Prakhar Bhandari__  
+
+__Under the guidance of : Kireet Joshi__
 
 ___Goal___ : To predict whether the patient has 10-year risk of future coronary heart disease (CHD)  
 
