@@ -1,2 +1,3 @@
 # GEU mini projests lists
-- [ ] Project 1:
+- [x] Project 1: Heart Disease Pridiction using Python
+- [x] Project 2: Twitter analysis using MATLAB
