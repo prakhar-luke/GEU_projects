@@ -2,4 +2,5 @@
 
 - [x] Project 1 : Heart Disease Pridiction using Python
 - [x] Project 2 : Twitter analysis using MATLAB
-- [ ] Project 3 :
+- [x] Project 3 : Detecting and combating misinformation on Social Media
+- [ ] Project 4 :
